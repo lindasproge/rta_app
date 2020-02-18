@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 import 'about.dart';
-import 'auth.dart';
 import 'calendar.dart';
 import 'contacts.dart';
 import 'events.dart';
 import 'settings.dart';
+import 'signin.dart';
 
 //Pages
 
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(
                     context,
                     new MaterialPageRoute(
-                        builder: (BuildContext context) => new AuthPage()));
+                        builder: (BuildContext context) => new SigninPage()));
               },
             ),
             new ListTile(
@@ -92,6 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     context,
                     new MaterialPageRoute(
                         builder: (BuildContext context) => new AboutPage()));
+
               },
             ),
             new ListTile(
@@ -110,6 +111,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 ////rest api
 

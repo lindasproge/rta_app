@@ -12,7 +12,6 @@ class EventsPage extends StatefulWidget {
 }
 
 class _EventsPageState extends State<EventsPage> {
-  @override
   final String url = "http://vis.rta.lv/service/roomschedule/test";
   List data;
 
@@ -22,7 +21,7 @@ class _EventsPageState extends State<EventsPage> {
 
     setState(() {
       var resBody = json.decode(res.body);
-      data = resBody["results"];
+      data = resBody["Saraksts"];
     });
 
     return "Success!";
@@ -43,18 +42,6 @@ class _EventsPageState extends State<EventsPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  Card(
-                    child: Container(
-                        padding: EdgeInsets.all(15.0),
-                        child: Row(
-                          children: <Widget>[
-                            Text("Sarakts: "),
-                            Text(data[index]["sarakts"],
-                                style: TextStyle(
-                                    fontSize: 18.0, color: Colors.black87)),
-                          ],
-                        )),
-                  ),
                   Card(
                     child: Container(
                         padding: EdgeInsets.all(15.0),

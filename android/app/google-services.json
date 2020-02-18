@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871410326623",
+    "firebase_url": "https://rta-app-34c8b.firebaseio.com",
+    "project_id": "rta-app-34c8b",
+    "storage_bucket": "rta-app-34c8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871410326623:android:6a83299374895e58d10fea",
+        "android_client_info": {
+          "package_name": "com.example.rta_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871410326623-a8qv8b3rqvb6l8mo8j3of13p3cvrb564.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rta_app",
+            "certificate_hash": "ac87607be2706032f4b98aa51ead9e04aa2e60f4"
+          }
+        },
+        {
+          "client_id": "871410326623-6jid80bff147pev9n44huu08ou1qstn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWysLdX1lg16eQkHVvjpVErabh7iZ2Pyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871410326623-6jid80bff147pev9n44huu08ou1qstn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
